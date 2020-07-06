@@ -1,3 +1,7 @@
+
+//-- For some reason the app wont work with the bottom code.
+//   Must only need it if I am connecting to backend services like graphQL.
+//   Keep them commented out for now.
 // import Amplify from "aws-amplify";
 // import awsExports from "./aws-exports";
 // Amplify.configure(awsExports);
