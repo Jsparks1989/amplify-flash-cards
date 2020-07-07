@@ -4,7 +4,7 @@ import '../styles/style.css';
 
 
 //class FlashCards extends React.Component {
-class StackOverflow2 extends React.Component{
+class MenuCards extends React.Component{
     state = {
        randomNumber: 0
     }
@@ -76,4 +76,4 @@ const mapStateToProps = (state) => {
 }
 
 //export default connect(mapStateToProps)(FlashCards);
-export default connect(mapStateToProps)(StackOverflow2);
+export default connect(mapStateToProps)(MenuCards);
