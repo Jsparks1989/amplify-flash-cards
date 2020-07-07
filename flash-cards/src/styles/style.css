@@ -1,17 +1,26 @@
+
+
+
 #question {
-    border-style: solid;
+    height: 150px;
 }
 
 #answer {
-    border-style: solid;
+    height: 150px;
 }
 
 #flip-button {
-    /* background-color: #720008; */
     margin-top: 2em;
 }
 
 #next-button {
-    /* background-color: #720008; */
     margin-top: 2em;
+}
+
+#questionAnswer {
+    background-color: maroon;
+}
+
+#text {
+    color: oldlace;
 }

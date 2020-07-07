@@ -39,13 +39,18 @@ class StackOverflow2 extends React.Component{
         return(
             //<div className='ui container'>
             <div style={{ margin: '2em' }} className='ui one column stackable center aligned page grid'>
+                    <h1 className='ui header'>Menu Flash Cards</h1>
     
-                    <div className='column twelve wide'>
+                    <div className='column twelve wide' id='questionAnswer'>
                         <div id='question'>
-                        { this.props.questionAnswer[this.state.randomNumber].question }
+                            <h2 id='text' className='ui header'>Question</h2>
+                            <div className='ui divider'></div>
+                            <p id='text'>{ this.props.questionAnswer[this.state.randomNumber].question }</p>
                         </div>
                         <div id='answer' style={{ display: 'none' }}>
-                        { this.props.questionAnswer[this.state.randomNumber].answer }
+                            <h2 id='text' className='ui header'>Answer</h2>
+                            <div className='ui divider'></div>
+                            <p id='text'>{ this.props.questionAnswer[this.state.randomNumber].answer }</p>
                         </div>
 
                         <div>
