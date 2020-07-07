@@ -10,7 +10,7 @@ const questionAnswerReducer = () => {
         },
         {
             question: 'What sizes do our sirloin come in?',
-            answer: '6oz, 9oz and 12oz'
+            answer: 'Sizes are: 6oz, 9oz and 12oz'
         },
         {
             question: 'What are the toppings on our baked potato?',
@@ -53,11 +53,11 @@ const questionAnswerReducer = () => {
             answer: '4 inches across'
         },
         {
-            question: 'What are the different sauces our kukabura wings can be tossed in?',
+            question: 'What are the different sauces our kookaburra wings can be tossed in?',
             answer: 'Mild, medium, and hot'
         },
         {
-            question: 'How many wings come with our kukabura wings appitizer?',
+            question: 'How many wings come with our kookaburra wings appitizer?',
             answer: '5 drums and 5 flats, 10 in total'
         },
         {
@@ -67,6 +67,34 @@ const questionAnswerReducer = () => {
         {
             question: 'What are our different salad dressings?',
             answer: 'Ranch, blue cheese, blue cheese vin, honey mustard, mustard vin, caesar, 1000 island, light balsamic vin, and oil & vin'
+        },
+        {
+            question: 'How is a rare cooked steak described?',
+            answer: 'Cool red center'
+        },
+        {
+            question: 'How is a medium rare cooked steak described?',
+            answer: 'Warm red center'
+        },
+        {
+            question: 'How is a medium cooked steak described?',
+            answer: 'Warm pink center with a touch of red'
+        },
+        {
+            question: 'How is a medium well cooked steak described?',
+            answer: 'Warm brown with a touch of pink center'
+        },
+        {
+            question: 'How is a well cooked steak described?',
+            answer: 'Hot brown center with no pink'
+        },
+        {
+            question: 'What are the ingredients for our three cheese steak dip?',
+            answer: 'Blend of steak, gouda, parmesan and jack cheeses, red bell pepper and onions'
+        },
+        {
+            question: 'What is our cheese blend for our cheese fries?',
+            answer: 'Monteray jack and cheddar'
         },
     ];
 }
