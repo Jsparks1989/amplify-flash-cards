@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 
 
 
-const questionAnswerReducer = () => {
+const menuReducer = () => {
     return [
         {
             question: 'How many sides come with our sirloin?',
@@ -100,6 +100,39 @@ const questionAnswerReducer = () => {
 }
 
 
+const drinksReducer = () => {
+    return [
+        {
+            question: 'What two tequilas can customers choose from for a top shelf rita?',
+            answer: 'Avion and patron'
+        },
+        {
+            question: 'What are the ingredients in our Wallaby Darned?',
+            answer: 'Prosecco, Svedka vodka, and peachtree schnapps'
+        },
+        {
+            question: 'What ingredients are in our Aussie Rum Punch?',
+            answer: 'Mount Gay rum, Malibu coconut rum, fresh lime, mango & cranberry juice'
+        },
+        {
+            question: 'What tequila is in our Sauza Gold Coast Rita?',
+            answer: 'Sauza gold tequila'
+        },
+        {
+            question: 'What ingredients are in our Blood Orange Rita?',
+            answer: 'Avion silver tequila, Cointreau Orange liqueur, blood orange mix, and a salt rim'
+        },
+        {
+            question: 'What ingredients are in our Naturally Skinny Rita?',
+            answer: 'Blue Agave El Jimador Reposado Tequila, citrus juices, and orange juice'
+        },
+        {
+            question: 'What ingredients are in our Blackberry Sangria?',
+            answer: 'Australian Jacob\'s Creek Moscato and Finlandia Raspberry Vodka, blackberry flavor and pineapple juice'
+        },
+    ];
+}
+
 // const randomNumber = (state=0, action) => {
     
 // }
@@ -107,5 +140,6 @@ const questionAnswerReducer = () => {
 
 
 export default combineReducers({
-    questionAnswer: questionAnswerReducer
+    questionAnswer: menuReducer,
+    drinksReducer: drinksReducer
 });

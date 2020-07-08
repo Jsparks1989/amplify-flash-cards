@@ -39,7 +39,7 @@ class MenuCards extends React.Component{
         return(
             //<div className='ui container'>
             <div style={{ margin: '2em' }} className='ui one column stackable center aligned page grid'>
-                    <h1 className='ui header'>Menu Flash Cards</h1>
+                    <h1 className='ui header'>Food Menu Flash Cards</h1>
     
                     <div className='column twelve wide' id='questionAnswer'>
                         <div id='question'>
