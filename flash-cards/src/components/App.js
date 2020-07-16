@@ -41,6 +41,7 @@ class App extends React.Component {
                         <Route path="/menu" exact component={MenuCards} />
                     </Switch>
                 </BrowserRouter>
+                
             </div>
         );
     }
