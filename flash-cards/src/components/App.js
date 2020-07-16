@@ -30,10 +30,10 @@ class App extends React.Component {
             <div>
                 <BrowserRouter>
                     <NavLink to="/menu">
-                        <button id='menu-button'>Menu test</button>
+                        <button className='ui button primary' id='menu-button'>Menu test</button>
                     </NavLink>
                     <NavLink to="/drinks">
-                        <button id='menu-button'>Drink test</button>
+                        <button className='ui button primary' id='menu-button'>Drink test</button>
                     </NavLink>
                     <br />
                     <Switch>
@@ -41,7 +41,6 @@ class App extends React.Component {
                         <Route path="/menu" exact component={MenuCards} />
                     </Switch>
                 </BrowserRouter>
-                
             </div>
         );
     }
