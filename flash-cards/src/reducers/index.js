@@ -96,6 +96,78 @@ const menuReducer = () => {
             question: 'What is our cheese blend for our cheese fries?',
             answer: 'Monteray jack and cheddar'
         },
+        {
+            question: 'How many ounces are our burger patties?',
+            answer: '8oz'
+        },
+        {
+            question: 'What sauce comes on the Sweet Chook O\' Mine Sandwich?',
+            answer: 'Honey Mustard'
+        },
+        {
+            question: 'Which entrees are served with a bowl and a wet nap?',
+            answer: 'Drovers and ribs platter'
+        },
+        {
+            question: 'How many ounces is each lobster tail?',
+            answer: '4oz'
+        },
+        {
+            question: 'How many bones are in the half order and full order of ribs?',
+            answer: '4 and 8'
+        },
+        {
+            question: 'How would you describe the season & seared cooking style to a guest?',
+            answer: '17 different bold seasonings on the flat top grill'
+        },
+        {
+            question: 'How would you describe the woodfire cooking style to a guest?',
+            answer: 'salt & pepper seasoning over an open flame. Similar to cooking from home on a grill'
+        },
+        {
+            question: 'Describe our Victoria\'s filet',
+            answer: 'Most tender; best served medium and below'
+        },
+        {
+            question: 'Describe our Center-Cut Sirloin',
+            answer: 'Most lean; best served medium and below'
+        },
+        {
+            question: 'Describe our ribeye',
+            answer: 'Juiciest and marbled; best served medium and up'
+        },
+        {
+            question: 'Describe our Bone-in Natural Cut Ribeye',
+            answer: 'Extra marbling; best served medium & up'
+        },
+        {
+            question: 'Which grade of steaks do we serve?',
+            answer: 'Choice'
+        },
+        {
+            question: 'Which of our steaks has the most marbling?',
+            answer: 'Ribeye'
+        },
+        {
+            question: 'Which of our steaks is the most tender?',
+            answer: 'Filet'
+        },
+        {
+            question: 'Which of our aussie-tizers are available in both regular and small sizes?',
+            answer: 'Coco shrimp, grilled shrimp, and cheese fries'
+        },
+        {
+            question: 'How many rib bones come in the junior ribs?',
+            answer: '3'
+        },
+        {
+            question: 'How many chicken tenders come in the kid\'s chicken tender meal?',
+            answer: '3'
+        },
+        {
+            question: 'What cheese comes on the kid\'s Boomerang Cheeseburger',
+            answer: 'American'
+        }
     ];
 }
 
